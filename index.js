@@ -174,8 +174,8 @@ class Airplane {
       this.previousBackground = attr.previousBackground;
       this.className = attr.className;
       this.favSubjects = attr.favSubjects;
-      this.grades = [100];
-      this.grade = 100;
+      // this.grades = [100];
+      // this.grade = 100;
     }
     listSubjects() {
       return this.favSubjects.join(", ");
@@ -186,11 +186,11 @@ class Airplane {
     sprintChallenge(subject){
       return `${this.name} has begun sprint challenge on ${subject}`;
     }
-    graduate() {
-      if (this.grade >= 70) {
-        this.graduated = true;
-      }
-    }
+    // graduate() {
+    //   if (this.grade >= 70) {
+    //     this.graduated = true;
+    //   }
+    // }
  }
   
   /*
