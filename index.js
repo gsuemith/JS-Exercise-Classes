@@ -175,7 +175,7 @@ class Airplane {
       this.className = attr.className;
       this.favSubjects = attr.favSubjects;
       // this.grades = [100];
-      // this.grade = 100;
+      this.grade = 100;
     }
     listSubjects() {
       return this.favSubjects.join(", ");
