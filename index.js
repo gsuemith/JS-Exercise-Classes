@@ -186,11 +186,12 @@ class Airplane {
     sprintChallenge(subject){
       return `${this.name} has begun sprint challenge on ${subject}`;
     }
-    // graduate() {
-    //   if (this.grade >= 70) {
-    //     this.graduated = true;
-    //   }
-    // }
+    graduate() {
+      if (this.grade >= 70) {
+        this.graduated = true;
+        console.log(`${this.name} has Graduated!`)
+      }
+    }
  }
   
   /*
