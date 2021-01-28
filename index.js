@@ -174,7 +174,6 @@ class Airplane {
       this.previousBackground = attr.previousBackground;
       this.className = attr.className;
       this.favSubjects = attr.favSubjects;
-      // this.grades = [100];
       this.grade = 100;
     }
     listSubjects() {
